@@ -35,7 +35,6 @@ const config = {
     jsreplaceout: 'script.min.js',
     cssreplaceoutpath: 'css/style.min.css',
     jsreplaceoutpath: 'js/script.min.js',
-
     htmlInlineOut: 'app/inline',
     cssInlineOut: 'app/inline/css',
     jsInlineOut: 'app/inline/js'
@@ -81,7 +80,6 @@ function inline(){
 	.pipe(dest(config.htmlInlineOut));
 
 	return merge(inlineCss, inlineJS, inlineHtml);
-	
 };
 
 function minify_css(){
