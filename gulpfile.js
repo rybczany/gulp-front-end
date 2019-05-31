@@ -12,7 +12,7 @@ const htmlreplace = require('gulp-html-replace');
 const htmlmin = require('gulp-htmlmin');
 const clean = require('gulp-dest-clean');
 const inlinesource = require('gulp-inline-source');
-var merge = require('merge-stream');
+const merge = require('merge-stream');
 
 const config = {
     dist: 'app/dist/',
