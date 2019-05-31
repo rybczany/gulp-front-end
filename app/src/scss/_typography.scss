@@ -1,0 +1,35 @@
+h1{
+	font-size: $big_font;
+}
+
+a{
+	color: $color_link;
+	font-size: $small_font;
+	display: inline-block;
+	margin-right: 20px;
+	transition: .4s;
+
+	&:hover{
+		color: $color_hover;
+	}
+}
+
+p{
+	color: $color_bg;
+	background-color: $color_link;
+	font-size: $big_font;
+	margin-left: 0px;
+}
+ul{
+	display: flex;
+	justify-content: space-between;
+
+	li{
+		color: $color_link;
+
+		a{
+			color: $color_list_link;
+			font-size: 16px;
+		}
+	}
+}

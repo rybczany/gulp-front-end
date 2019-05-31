@@ -1,0 +1,11 @@
+@import "settings";
+@import "typography";
+@import "form";
+body{
+	background-color: $color_bg;
+	color: yellow;
+	padding: 40px;
+	margin: 0;
+	line-height: inherit;
+	font-size: inherit;
+}
