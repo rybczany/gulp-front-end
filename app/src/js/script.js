@@ -15,4 +15,5 @@ let animal = {
 console.log(person.name);
 console.log('Pozdro');
 console.log('Pozdro 700');
+
 console.log('Pozdro 800');
